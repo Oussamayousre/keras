@@ -2158,7 +2158,7 @@ class TensorBoard(Callback, version_utils.TensorBoardVersionSelector):
                write_images=False,
                write_steps_per_second=False,
                update_freq='epoch',
-               profile_batch=2,
+               profile_batch=0,
                embeddings_freq=0,
                embeddings_metadata=None,
                **kwargs):
